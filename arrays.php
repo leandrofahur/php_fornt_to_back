@@ -34,21 +34,4 @@
     array('Hyundai', 7, 7)
   );
 
-  // count($cars) = 4
-  // count($cars[0]) = 3
-
-  for($i = 0; $i < count($cars); $i++) {
-    // for($j = 0; $j < count($cars[0]); $j++) {
-    //   if($j === 0)
-    //     echo 'Car: ' . $cars[$i][$j] . '<br>';
-    //   if($j === 1)
-    //     echo 'Inventory: ' . $cars[$i][$j] . '<br>';
-    //   if($j === 2)
-    //     echo 'Sold: ' . $cars[$i][$j] . '<br>';
-    // }           
-    echo 'Car: ' . $cars[$i][0] . ' | ';
-    echo 'Inventory: ' . $cars[$i][1] . ' | ';
-    echo 'Sold: ' . $cars[$i][2] . '<br><br>';
-  } 
-
 ?>
