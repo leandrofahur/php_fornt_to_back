@@ -14,8 +14,13 @@
   // } 
 
   // print_r($cars);
-  foreach($cars as $car) {
-    print_r($car);
+  // foreach($cars as $car) {
+  //   print_r($car);
+  // }
+
+  $people = array('Leandro' => 35, 'Ocean' => 25, 'Aquila' => 24);
+  foreach($people as $person => $age) {
+    echo 'Name: ' . $person . ' | Age: ' . $age . '<br>';
   }
 
 ?>
