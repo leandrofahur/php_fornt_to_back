@@ -20,6 +20,17 @@
 
   // echo $timestamp;
 
-  echo date('m/d/y h:i:sa', $timestamp);
+  // echo date('m/d/y h:i:sa', $timestamp);
+  $timestamp2 = strtotime('7:00pm March 22 2016');
+  //echo date('m/d/Y h:i:sa',$timestamp2);
 
+  $timestamp3 = strtotime('tomorrow');
+  $timestamp4 = strtotime('next sunday');
+  $timestamp5 = strtotime('+2 years');
+
+  echo date('m/d/Y',$timestamp3);
+  echo '<br>';
+  echo date('m/d/Y',$timestamp4);
+  echo '<br>';
+  echo date('m/d/Y',$timestamp5);  
 ?>
